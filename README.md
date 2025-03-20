@@ -22,16 +22,16 @@ The dataset can be found [here](assets/BP1/tc.zip).
         GROUP BY DATE_FORMAT(s.orderdate, '%M'), p.productname  
     )  
   
-SELECT  
-    productname,  
-    MIN(revenue) AS min_rev,  
-    MAX(revenue) AS max_rev,  
-    AVG(revenue) AS avg_rev,  
-    STDDEV(revenue) AS std_dev_rev  
-FROM   
-    monthly_revs  
-GROUP BY   
-    productname;
+    SELECT  
+        productname,  
+        MIN(revenue) AS min_rev,  
+        MAX(revenue) AS max_rev,  
+        AVG(revenue) AS avg_rev,  
+        STDDEV(revenue) AS std_dev_rev  
+    FROM   
+        monthly_revs  
+    GROUP BY   
+        productname;
 
 ![Descriptive Statistics](assets/BP1/BP1.png)
 
