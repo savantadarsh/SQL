@@ -10,6 +10,7 @@ A common table expression (CTE) is used to achieve the business objectives.
 The dataset can be found [here](assets/BP1/tc.zip).
 
 ### SQL Script
+'''sql
 WITH monthly_revs AS (  
     SELECT   
         DATE_FORMAT(s.orderdate, '%M') AS orderdate,  
@@ -31,7 +32,7 @@ SELECT
 FROM   
     monthly_revs  
 GROUP BY   
-    productname;  
+    productname;'''
 
 ![Descriptive Statistics](assets/BP1/BP1.png)
 
