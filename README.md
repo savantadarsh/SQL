@@ -1,5 +1,5 @@
-# Calculating descriptive statistics for monthly revenue by product
-## Business Problems:
+# Projects in SQL
+## Business Problem 1
 1)	How much revenue does each product usually generate each month?  
 2)	Which product has the most success throughout all of last year?  
 3)	Did either product fluctuate greatly each month or was the month-to-month trend consistent?  
@@ -34,4 +34,19 @@ The dataset can be found [here](assets/BP1/tc.zip).
         productname;
 
 ![Descriptive Statistics](assets/BP1/BP1.png)
+
+## Business Problem 2
+Tracking how many users have clicked the link in the campaign email. In particular, how many users clicked the email link one time, two times, three times, and so on?
+
+### SQL Script
+    with cte as (
+    select userid, count(userid) as num_link_clicks from frontendeventlog
+    where eventid = 5
+    group by userid
+    )
+    select distinct(num_link_clicks), count(userid) as num_users from cte
+    group by num_link_clicks;
+
+
+
 
