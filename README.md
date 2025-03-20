@@ -47,6 +47,6 @@ Tracking how many users have clicked the link in the campaign email. In particul
     select distinct(num_link_clicks), count(userid) as num_users from cte
     group by num_link_clicks;
 
-
+![Output](assets/BP2/BP2.png)
 
 
