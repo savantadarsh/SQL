@@ -7,5 +7,5 @@
 For making quick insights, descriptive statistics are calculated. The minimum, maximum, average and standard deviation of monthly revenue for each product for the year 2022 are calculated. 
 A common table expression (CTE) is used to achieve the business objectives.
 
-![Descriptive Statistics](assets/BP1.png)
+![Descriptive Statistics](assets/BP1/BP1.png)
 
