@@ -5,7 +5,9 @@
 3)	Did either product fluctuate greatly each month or was the month-to-month trend consistent?
 
 For making quick insights, descriptive statistics are calculated. The minimum, maximum, average and standard deviation of monthly revenue for each product for the year 2022 are calculated. 
-A common table expression (CTE) is used to achieve the business objectives..
+A common table expression (CTE) is used to achieve the business objectives.
+
+The dataset can be found [here](assets/BP1/tc.zip).
 
 ### SQL Script
 WITH monthly_revs AS (
