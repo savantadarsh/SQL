@@ -10,18 +10,17 @@ A common table expression (CTE) is used to achieve the business objectives.
 The dataset can be found [here](assets/BP1/tc.zip).
 
 ### SQL Script
-'''sql
-WITH monthly_revs AS (  
-    SELECT   
-        DATE_FORMAT(s.orderdate, '%M') AS orderdate,  
-        p.productname,   
-        SUM(s.revenue) AS revenue   
-    FROM subscriptions AS s   
-    JOIN products AS p   
-      ON s.productid = p.productid  
-    WHERE s.orderdate BETWEEN '2022-01-01' AND '2022-12-31'  
-    GROUP BY DATE_FORMAT(s.orderdate, '%M'), p.productname  
-)  
+    WITH monthly_revs AS (  
+        SELECT   
+            DATE_FORMAT(s.orderdate, '%M') AS orderdate,  
+            p.productname,   
+            SUM(s.revenue) AS revenue   
+        FROM subscriptions AS s   
+        JOIN products AS p   
+          ON s.productid = p.productid  
+        WHERE s.orderdate BETWEEN '2022-01-01' AND '2022-12-31'  
+        GROUP BY DATE_FORMAT(s.orderdate, '%M'), p.productname  
+    )  
   
 SELECT  
     productname,  
@@ -32,7 +31,7 @@ SELECT
 FROM   
     monthly_revs  
 GROUP BY   
-    productname;'''
+    productname;
 
 ![Descriptive Statistics](assets/BP1/BP1.png)
 
