@@ -21,16 +21,15 @@ The dataset can be found [here](assets/BP1/tc.zip).
 ## Core Analysis and Scope
 The analysis is organized into four thematic areas, each corresponding to a set of insights drawn from the data. For each theme, we outline the focus, key questions addressed, and relevant metrics (with findings) from the data.
 
-![Descriptive Statistics](assets/BP1/BP1.png)
-
 ## Revenue Trends and Product Performance
 **Focus:** Evaluate how different products (subscription tiers) contribute to revenue and assess revenue trends over time.
+
 **Key Questions:**
 How does revenue break down by subscription tier (Basic, Pro, Premium), and which tier drives the most revenue?
 
 What are the trends in monthly revenue over 2022–2023? (Are there seasonal spikes or declines, and how does year-over-year growth look?)
 
-
+![Descriptive Statistics](assets/BP1/BP1.png)
 ![Output](assets/BP2/BP2.png)
 
 
