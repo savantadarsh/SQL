@@ -97,10 +97,10 @@ Based on the comprehensive SQL analysis and findings (Revenue Trends, Customer E
 
 1. Optimize the Conversion Funnel and Onboarding Process: Remove friction at critical stages of the user journey to increase conversion from free trials to paid subscriptions. CloudFlow should streamline the sign-up and onboarding experience:
 
-- Simplify User Registration: Reduce the steps required to create an account (for example, implement single sign-on or shorter forms) to lower drop-off rates during sign-up. The analysis indicates significant user drop-off during registration, so a smoother process will capture more prospects.
-- Implement Guided Onboarding: Introduce in-app tutorials, setup wizards, or onboarding emails that quickly demonstrate CloudFlow’s core value. Guiding new users to reach key milestones in their first sessions will improve initial engagement and encourage trial users to convert to paying customers.
-- Engage Inactive Trial Users: Deploy a mid-trial outreach campaign (e.g. personalized emails or support calls) for users who sign up but become inactive. Proactively offering assistance or incentives before their trial ends can re-engage these users and boost conversion rates.
-*(Strategic Priority: High impact, relatively quick wins – improving funnel conversion directly drives revenue growth.)*
+  - Simplify User Registration: Reduce the steps required to create an account (for example, implement single sign-on or shorter forms) to lower drop-off rates during sign-up. The analysis indicates significant user drop-off during registration, so a smoother process will capture more prospects.
+  - Implement Guided Onboarding: Introduce in-app tutorials, setup wizards, or onboarding emails that quickly demonstrate CloudFlow’s core value. Guiding new users to reach key milestones in their first sessions will improve initial engagement and encourage trial users to convert to paying customers.
+  - Engage Inactive Trial Users: Deploy a mid-trial outreach campaign (e.g. personalized emails or support calls) for users who sign up but become inactive. Proactively offering assistance or incentives before their trial ends can re-engage these users and boost conversion rates.
+  *(Strategic Priority: High impact, relatively quick wins – improving funnel conversion directly drives revenue growth.)*
 
 
 
