@@ -1,10 +1,15 @@
-# Projects in SQL
-## Business Problem 1
-1)	How much revenue does each product usually generate each month?  
-2)	Which product has the most success throughout all of last year?  
-3)	Did either product fluctuate greatly each month or was the month-to-month trend consistent?  
-
+# Project Overview: CloudFlow SaaS Revenue & Retention Optimization
+## Business Objective:
+The goal of this project is to investigate revenue trends, customer retention challenges, and payment process efficiency in order to surface recommendations for optimizing product investments, improving customer loyalty, and streamlining operational workflows.
 For making quick insights, descriptive statistics are calculated. The minimum, maximum, average and standard deviation of monthly revenue for each product for the year 2022 are calculated. 
+
+## Company Background:
+Founded in 2018, CloudFlow is a fast-growing SaaS company offering cloud-based workflow automation tools to businesses globally. Its subscription plans (Basic, Pro, Enterprise) cater to diverse customer segments, with a focus on recurring revenue through subscriptions, upsells, and renewals.
+Recent initiatives include a new email engagement campaign, a redesigned customer support page, and a pilot for an upcoming product tier. Leadership seeks to address:
+•	Declining customer retention rates.
+•	Inconsistent revenue growth across product lines.
+•	Bottlenecks in the payment and renewal processes.
+
 A common table expression (CTE) is used to achieve the business objectives.
 
 The dataset can be found [here](assets/BP1/tc.zip).
