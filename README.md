@@ -18,43 +18,18 @@ The analysis of these data points will help CloudFlow develop targeted strategie
 
 The dataset can be found [here](assets/BP1/tc.zip).
 
-### SQL Script
-    WITH monthly_revs AS (  
-        SELECT   
-            DATE_FORMAT(s.orderdate, '%M') AS orderdate,  
-            p.productname,   
-            SUM(s.revenue) AS revenue   
-        FROM subscriptions AS s   
-        JOIN products AS p   
-          ON s.productid = p.productid  
-        WHERE s.orderdate BETWEEN '2022-01-01' AND '2022-12-31'  
-        GROUP BY DATE_FORMAT(s.orderdate, '%M'), p.productname  
-    )  
-  
-    SELECT  
-        productname,  
-        MIN(revenue) AS min_rev,  
-        MAX(revenue) AS max_rev,  
-        AVG(revenue) AS avg_rev,  
-        STDDEV(revenue) AS std_dev_rev  
-    FROM   
-        monthly_revs  
-    GROUP BY   
-        productname;
+## Core Analysis and Scope
+The analysis is organized into four thematic areas, each corresponding to a set of insights drawn from the data. For each theme, we outline the focus, key questions addressed, and relevant metrics (with findings) from the data.
 
 ![Descriptive Statistics](assets/BP1/BP1.png)
 
-## Business Problem 2
-Tracking how many users have clicked the link in the campaign email. In particular, how many users clicked the email link one time, two times, three times, and so on?
+## Revenue Trends and Product Performance
+**Focus:** Evaluate how different products (subscription tiers) contribute to revenue and assess revenue trends over time.
+**Key Questions:**
+How does revenue break down by subscription tier (Basic, Pro, Premium), and which tier drives the most revenue?
 
-### SQL Script
-    with cte as (
-    select userid, count(userid) as num_link_clicks from frontendeventlog
-    where eventid = 5
-    group by userid
-    )
-    select distinct(num_link_clicks), count(userid) as num_users from cte
-    group by num_link_clicks;
+What are the trends in monthly revenue over 2022–2023? (Are there seasonal spikes or declines, and how does year-over-year growth look?)
+
 
 ![Output](assets/BP2/BP2.png)
 
