@@ -1,17 +1,18 @@
-# Project Overview: CloudFlow SaaS Revenue & Retention Optimization
-## Business Objective:
-The goal of this project is to investigate revenue trends, customer retention challenges, and payment process efficiency in order to surface recommendations for optimizing product investments, improving customer loyalty, and streamlining operational workflows.
-For making quick insights, descriptive statistics are calculated. The minimum, maximum, average and standard deviation of monthly revenue for each product for the year 2022 are calculated. 
+# CloudFlow Revenue and Retention Optimization Project 
+## Business Objective
+CloudFlow aims to **maximize recurring revenue and customer retention** by identifying key factors influencing subscription growth and churn. The objective of this project is to leverage data-driven insights to **optimize revenue streams** (through better product uptake and upsells) and **improve customer retention** (by addressing churn causes and engagement gaps). This will guide strategic initiatives to increase customer lifetime value and reduce churn rate.
 
-## Company Background:
-Founded in 2018, CloudFlow is a fast-growing SaaS company offering cloud-based workflow automation tools to businesses globally. Its subscription plans (Basic, Pro, Enterprise) cater to diverse customer segments, with a focus on recurring revenue through subscriptions, upsells, and renewals.
+## Company Background
+CloudFlow is a **subscription-based SaaS company** offering cloud solutions on a tiered plan model (e.g. Basic, Pro, Premium). As a B2B-focused platform, CloudFlow serves organizations of varying sizes – from small teams to enterprise clients – on monthly or annual subscriptions. The company’s revenue model relies on **recurring subscription fees** and expansion within accounts (upselling additional product modules or higher-tier plans). Maintaining high customer satisfaction and continual product value is critical in **driving renewals and upgrades** in this SaaS model.
 
-Recent initiatives include a new email engagement campaign, a redesigned customer support page, and a pilot for an upcoming product tier. Leadership seeks to address:
-* Declining customer retention rates.
-* Inconsistent revenue growth across product lines.
-* Bottlenecks in the payment and renewal processes.
+## Project Purpose
+The purpose of the Revenue and Retention Optimization project is to **analyze CloudFlow’s usage, financial, and customer interaction data** to uncover actionable insights. By examining subscription revenues, user engagement patterns, support interactions, and conversion funnels, the project addresses key business questions:
 
-A common table expression (CTE) is used to achieve the business objectives.
+*Where are we gaining or losing revenue?*
+*Why do customers churn, and how can we prevent it?*
+*Where do users encounter friction in the product or sales funnel?*
+
+The analysis of these data points will help CloudFlow develop targeted strategies across product, marketing, engineering, and customer success teams to **boost revenue growth and improve retention.**
 
 The dataset can be found [here](assets/BP1/tc.zip).
 
