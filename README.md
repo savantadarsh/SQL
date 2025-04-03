@@ -25,7 +25,9 @@ The analysis is organized into four thematic areas, each corresponding to a set 
 **Focus:** Evaluate how different products (subscription tiers) contribute to revenue and assess revenue trends over time.
 
 **Key Questions:**
+
 How does revenue break down by subscription tier (Basic, Pro, Premium), and which tier drives the most revenue?
+
 What are the trends in monthly revenue over 2022–2023? (Are there seasonal spikes or declines, and how does year-over-year growth look?)
 
 ![Descriptive Statistics](assets/BP1/BP1.png)
