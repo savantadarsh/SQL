@@ -6,9 +6,9 @@ For making quick insights, descriptive statistics are calculated. The minimum, m
 ## Company Background:
 Founded in 2018, CloudFlow is a fast-growing SaaS company offering cloud-based workflow automation tools to businesses globally. Its subscription plans (Basic, Pro, Enterprise) cater to diverse customer segments, with a focus on recurring revenue through subscriptions, upsells, and renewals.
 Recent initiatives include a new email engagement campaign, a redesigned customer support page, and a pilot for an upcoming product tier. Leadership seeks to address:
-•	Declining customer retention rates.
-•	Inconsistent revenue growth across product lines.
-•	Bottlenecks in the payment and renewal processes.
+* Declining customer retention rates.
+* Inconsistent revenue growth across product lines.
+* Bottlenecks in the payment and renewal processes.
 
 A common table expression (CTE) is used to achieve the business objectives.
 
