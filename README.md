@@ -9,7 +9,9 @@ CloudFlow is a **subscription-based SaaS company** offering cloud solutions on a
 The purpose of the Revenue and Retention Optimization project is to **analyze CloudFlow’s usage, financial, and customer interaction data** to uncover actionable insights. By examining subscription revenues, user engagement patterns, support interactions, and conversion funnels, the project addresses key business questions:
 
 *Where are we gaining or losing revenue?*
+
 *Why do customers churn, and how can we prevent it?*
+
 *Where do users encounter friction in the product or sales funnel?*
 
 The analysis of these data points will help CloudFlow develop targeted strategies across product, marketing, engineering, and customer success teams to **boost revenue growth and improve retention.**
