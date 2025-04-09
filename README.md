@@ -16,7 +16,7 @@ The purpose of the Revenue and Retention Optimization project is to **analyze Cl
 
 The analysis of these data points will help CloudFlow develop targeted strategies across product, marketing, engineering, and customer success teams to **boost revenue growth and improve retention.**
 
-The dataset can be found [here](assets/BP1/tc.zip).
+The dataset can be found [here](assets/dataset).
 
 ## Core Analysis and Scope
 The analysis is organized into four thematic areas, each corresponding to a set of insights drawn from the data. For each theme, we outline the focus, key questions addressed, and relevant metrics (with findings) from the data.
