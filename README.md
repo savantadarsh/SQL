@@ -20,7 +20,7 @@ The dataset can be found [here](assets/dataset) and the analysis is carried out 
 
 ## Dataset Structure
 The dataset consists of nine tables, covering information about users, customers, subscriptions, products, and frontend activity, as well as payment status changes and cancellations.
-![Star Schema](assets/Data Structure/SaaS Tech Main Data Model - Main Data Model.png)
+![Star Schema](assets/Data Structure)
 
 ## Core Analysis and Scope
 The analysis is organized into four thematic areas, each corresponding to a set of insights drawn from the data. For each theme, we outline the focus, key questions addressed, and relevant metrics (with findings) from the data.
