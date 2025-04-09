@@ -135,20 +135,3 @@ Based on the comprehensive SQL analysis and findings (Revenue Trends, Customer E
      3. **Focus on High-Value Segments:** Double down on enterprise and high-usage customers, as they likely contribute a disproportionate share of revenue. This could include dedicating more sales and support resources to enterprise accounts, and possibly developing an even more advanced “Enterprise Plus” offering with bespoke features or services. By investing where the revenue impact is greatest, CloudFlow can accelerate overall growth.
 
 *(Strategic Priority: Medium impact – strategic adjustments to pricing and focus can yield significant gains, though changes should be carefully tested; feasibility is moderate as it may require product and policy updates.)*
-
-
-
-
-
-
-
-
-
-
-
-
-
-![Descriptive Statistics](assets/BP1/BP1.png)
-![Output](assets/BP2/BP2.png)
-
-
