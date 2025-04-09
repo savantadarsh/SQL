@@ -138,18 +138,6 @@ Based on the comprehensive SQL analysis and findings (Revenue Trends, Customer E
 
 
 
-1. Main Point
-     1. Main Point 1
-     2. Main Point 2
-
-
-
-
-
-
-
-
-
 
 
 
