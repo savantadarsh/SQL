@@ -20,6 +20,7 @@ The dataset can be found [here](assets/dataset) and the analysis is carried out 
 
 ## Dataset Structure
 The dataset consists of nine tables, covering information about users, customers, subscriptions, products, and frontend activity, as well as payment status changes and cancellations.
+
 ![Star Schema](assets/Data Structure/Star_Schema.png)
 
 ## Core Analysis and Scope
