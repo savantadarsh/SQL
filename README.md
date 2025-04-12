@@ -94,7 +94,7 @@ The SQL output can be found [here](assets/Output/7.pdf).
 
 - *At which stage of the payment or onboarding funnel do we lose the most prospects?*
 
-- How efficient is the funnel in terms of time – are users spending too long at certain steps or abandoning quickly?
+- *How efficient is the funnel in terms of time – are users spending too long at certain steps or abandoning quickly?*
 
 **Key Insights:**
 
@@ -108,22 +108,28 @@ The SQL output can be found [here](assets/Output/7.pdf).
 
 
 ## Retention and Expansion Opportunities
-**Focus:** Investigate why customers churn (non-renew or downgrade) and identify opportunities to increase revenue from existing customers via upsells or cross-sells.
+**Focus:** Understand churn drivers and upsell opportunities
 
-**Key Questions:**
+**Guiding Questions**
 
-- What are the primary reasons customers are canceling or not renewing? Is pricing a major concern?
+- *What are the primary reasons customers are cancelling or not renewing? Is pricing a major concern?*
 
-- How many customers have potential for upselling (e.g., have only one product or a lower tier plan) and thus represent low-hanging fruit for revenue expansion?
+- *How many customers have potential for upselling (e.g., have only one product or a lower tier plan) and thus represent low-hanging fruit for revenue expansion?*
 
-- Which segments of the customer base should account management prioritize for retention and expansion efforts?
+**Key Insights:**
 
-**Metrics & Findings:**
+- ~35% of churned users cite price sensitivity as their main reason for leaving. The SQL output can be found [here](assets/Output/6.pdf).
 
-- **Churn Drivers-Price Sensitivity:** Customer feedback and cancellation reasons point to **pricing (“product is too expensive”) as a significant factor in churn.** In a recent period, roughly **34–37% of churned customers cited cost** as a reason for leaving. This proportion, while gradually declining (from 37% to 34% over the observed timeframe), remains the single largest cited reason. It indicates that over one-third of departing customers feel they are not receiving enough value for the price. Other reasons (not detailed in the snippet) make up the remaining ~63–66%, likely including product fit, missing features, support issues, etc. The high rate of price-related churn suggests CloudFlow may need to **re-evaluate its pricing strategy or better communicate value** – especially to cost-sensitive clients or those on the fence about renewal. The SQL output can be found [here](assets/Output/6.pdf).
+- 122 accounts flagged for upsell opportunities — many are large clients using only one product/module. The SQL output can be found [here](assets/Output/4a.pdf) and [here](assets/Output/4b.pdf).
 
-- **Upsell Potential:** There is a clear opportunity to **increase revenue from the existing customer base via upselling** additional products/modules. Analysis shows **122 customer accounts have upsell opportunities** identified – these are clients who have only a subset of CloudFlow’s product offerings. Many of these are sizable accounts. For example, one enterprise customer (ID anonymized) with over 6,700 users in their organization is subscribed to only one CloudFlow product【28†】, flagging a strong upsell case to add more modules or upgrade their plan. By targeting such single-product customers (especially those on the Basic tier or using only one module), CloudFlow can not only boost revenue per account but also deepen the customer’s reliance on the platform (which in turn improves retention). The data suggests a number of large clients fall in this category, making it a high-impact focus area for the sales and customer success teams. The SQL output can be found [here](assets/Output/4a.pdf).
+## 📈Core Analysis Themes & Insights
+1. ⬆️ **Upsell High-Potential Accounts**
+Launch targeted campaigns for 122 identified accounts (esp. large single-module clients) to boost account value and product adoption.
 
-- **Retention Segmentation:** Combining the insights above, we can segment the customer base to prioritize retention efforts. For instance, clients who indicate price concerns and have low product adoption (e.g., only one module, or low engagement as seen in support/engagement metrics) are at higher risk of churn and prime candidates for outreach. Meanwhile, satisfied single-product customers represent expansion opportunities. This analysis helps **inform cross-functional teams on where to focus – e.g., Customer Success can focus on value realization for price-sensitive accounts, and Sales can focus on upsell pitches to single-product accounts.** The SQL output can be found [here](assets/Output/4b.pdf).
+2. ⚖️ **Funnel Optimization for Conversion**
+Streamline the checkout funnel by simplifying UI and resolving common errors; only ~39% of users complete after initiating checkout.
+
+3. 💸 **Flexible Pricing & Value Communication**
+Introduce pricing tiers or dynamic offers and reinforce product value to reduce price-related churn (~35%).
 
 
