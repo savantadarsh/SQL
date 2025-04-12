@@ -26,15 +26,15 @@ The dataset consists of nine tables, covering information about users, customers
 ## 📊Core Analysis Themes & Insights
 
 # Revenue Trends and Product Performance
-**Focus:** Evaluate revenue by subscription tier and identify growth/volatility trends.
+**Focus:** Evaluate revenue by subscription tier and identify growth/volatility trends
 
-**Key Insights:**
+**Guiding Questions**
 
 - *How does revenue break down by subscription tier (Basic, Pro, Premium), and which tier drives the most revenue?*
 
 - *What are the trends in monthly revenue over 2022–2023?*
 
-**Metrics & Findings:**
+**Key Insights**
 
 - **Premium** plan has the highest average revenue per month (£275.15k), followed by **Basic** (£246.94k) and **Pro** (£207.10k). The SQL output can be found [here](assets/Output/1a.pdf).
 
@@ -68,20 +68,24 @@ The SQL output can be found [here](assets/Output/7.pdf).
 **Summary:** 2022 was a rollercoaster year with extreme highs/lows, while 2023 showed more resilience—especially in Q1 and Q4. Q4 is strategically important in both years.
 
 ## Customer Engagement and Support
-**Focus:** Understand user engagement with CloudFlow’s features and their usage of support resources, to gauge overall activity levels and potential friction points requiring support.
+**Focus:** Measure user activity and support reliance to identify engagement gaps
 
-**Key Questions:**
+**Guiding Questions**
 
-- How actively are users engaging with CloudFlow (e.g. clicking links or using features)? Is the engagement distributed evenly or are there many low-activity users?
+- *How actively are users engaging with CloudFlow (e.g. clicking links or using features)? Is the engagement distributed evenly or are there many low-activity users?*
 
-- To what extent do users rely on self-service support (help center, FAQs) versus contacting support or filing tickets? Are support resources effectively helping users, or do many issues escalate to support tickets?
+- *To what extent do users rely on self-service support (help center, FAQs) versus contacting support or filing tickets? Are support resources effectively helping users, or do many issues escalate to support tickets?*
 
-**Metrics & Findings:**
+**Key Insights:**
 
-- **User Engagement Distribution:** Engagement analysis (measured here by number of link clicks per user) shows a skewed distribution. A majority of users perform a **moderate number of clicks** in the application, while a smaller group are highly active. For example, about 18.6% of users clicked 4 links in the period analyzed, the largest single group. Around one-third of users (33.9%) clicked 2–3 links, whereas very few users (≈3.4%) clicked 9 or 10 links. This indicates a **drop-off in ultra-engaged users**, suggesting that while typical users do interact with the product, relatively few are power-users. There may be an opportunity to increase engagement (moving users from 1–2 clicks to higher interaction levels) through in-app guides or marketing, as higher engagement often correlates with retention. The SQL output can be found [here](assets/Output/2.pdf). 
+- **Majority of users** are moderately active: 33.9% clicked 2–3 links; 18.6% clicked 4 links. The SQL output can be found [here](assets/Output/2.pdf). 
 
 
-- **Support Self-Service vs Tickets:** There is evidence that many users do **not fully utilize self-help resources** before reaching out to support. For instance, one user (ID U381) had **0** help center views or FAQ clicks but submitted **2 support tickets.** This pattern of immediate escalation to support suggests that some customers either can’t find answers in self-service or prefer direct support. On the other hand, some users successfully self-serve – e.g., user U827 viewed FAQs (recorded 1 FAQ click) and submitted **no tickets**, implying their issue was resolved via the knowledge base. Overall, the data shows a mix: a portion of the user base leverages documentation/FAQ (about 25% of the listed sample clicked at least one help article or FAQ) while a significant number proceed straight to support requests. This insight highlights the need to improve **documentation accessibility and effectiveness** to deflect avoidable support tickets (which can improve user satisfaction and reduce support costs). The SQL output can be found [here](assets/Output/5.pdf).
+- Only 3.4% of users are high-frequency clickers (9–10 links), signalling a drop-off in "power users." The SQL output can be found [here](assets/Output/5.pdf).
+
+- Support behaviour:
+   - Some users escalate directly to tickets without viewing help content
+   - Only ~25% interact with help/FAQ content before filing tickets
 
 ## Conversion Funnel Analysis
 **Focus:** Analyze the subscription signup and payment funnel to find where potential customers drop off during the upgrade/purchase process, and identify technical or UX issues hindering conversions.
