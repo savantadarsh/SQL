@@ -1,11 +1,11 @@
 # CloudFlow Revenue and Retention Optimization Project 
-## Business Objective
+## 📆Business Objective
 CloudFlow aims to **maximize recurring revenue and customer retention** by identifying key factors influencing subscription growth and churn. This project leverages data-driven insights to **optimize revenue streams** (via better product uptake and upsells) and **improve retention** (by addressing churn causes and engagement gaps). These findings will inform strategic initiatives that boost customer lifetime value and reduce churn rate.
 
-## Company Background
+## 🏢Company Background
 CloudFlow is a **subscription-based B2B SaaS company** offering cloud solutions through a tiered plan model (Basic, Pro, Premium). Its clients range from small teams to large enterprises, paying monthly or annually. Revenue primarily comes from recurring subscriptions and expansion within existing accounts. Success in this model hinges on high customer satisfaction and perceived product value.
 
-## Project Purpose
+## 🔍Project Purpose
 This analysis focuses on answering three core business questions:
 
 *Where are we gaining or losing revenue?*
@@ -24,24 +24,47 @@ The dataset consists of nine tables, covering information about users, customers
 ![Star Schema](assets/Data_Structure/Star_Schema.png)
 
 ## 📊Core Analysis Themes & Insights
-The analysis is organized into four thematic areas, each corresponding to a set of insights drawn from the data. For each theme, we outline the focus, key questions addressed, and relevant metrics (with findings) from the data.
 
-## Revenue Trends and Product Performance
-**Focus:** Evaluate how different products (subscription tiers) contribute to revenue and assess revenue trends over time.
+# Revenue Trends and Product Performance
+**Focus:** Evaluate revenue by subscription tier and identify growth/volatility trends.
 
-**Key Questions:**
+**Key Insights:**
 
-- How does revenue break down by subscription tier (Basic, Pro, Premium), and which tier drives the most revenue?
+- *How does revenue break down by subscription tier (Basic, Pro, Premium), and which tier drives the most revenue?*
 
-- What are the trends in monthly revenue over 2022–2023? (Are there seasonal spikes or declines, and how does year-over-year growth look?)
+- *What are the trends in monthly revenue over 2022–2023?*
 
 **Metrics & Findings:**
 
-- **Revenue by Product Tier:** CloudFlow’s Premium plan generates the highest average monthly revenue per period ($275.15k), followed by the Basic plan ($246.94k) and Pro (~$207.10k). Notably, the Basic tier, despite a lower price point, contributes significantly – indicating a large volume of Basic subscribers. The Basic plan also showed the highest revenue variability (std. dev. ≈ $74.5k) compared to Pro and Premium, suggesting Basic-tier revenue fluctuates more (possibly due to upgrades or churn in a big user base). The SQL output can be found [here](assets/Output/1a.pdf).
+- **Premium** plan has the highest average revenue per month (£275.15k), followed by **Basic** (£246.94k) and **Pro** (£207.10k). The SQL output can be found [here](assets/Output/1a.pdf).
 
-- **Year-over-Year Growth:** Overall subscription revenues have grown year-over-year. For example, Basic plan revenue in January increased from $111,900 in 2022 to $132,300 in 2023 (18% growth), and Pro plan grew from $112,900 to $157,500 in the same period【10†】. However, there were exceptions: in February, Premium plan revenue dropped from $165,000 (2022) to $118,300 (2023)【10†】, indicating some churn or downgrade in that segment. Such month-by-month comparison helps pinpoint when certain tiers underperformed. The SQL output can be found [here](assets/Output/1b.pdf).
+- **Basic** has the highest revenue fluctuation (£74.5k std. dev), suggesting sensitivity to churn or seasonal campaigns. The SQL output can be found [here](assets/Output/1b.pdf).
 
-- **Monthly Revenue Trend:** The monthly total revenue trend (all products combined) showed **significant fluctuations** over the two-year period. For instance, after peaking at $502,800 in Oct 2022, revenue fell sharply by -$172,300 in Nov 2022. 2023 saw a substantial slump in May 2023 (-$204,600 from April), followed by a strong recovery and a **record high** in Dec 2023 (approx. $534,300, a $254.5k increase from Nov). These swings suggest seasonal factors or campaign impacts (e.g., possibly a mid-year drop and a year-end push). Identifying the causes behind the **largest dip (May 2023)** and the **big surge (Dec 2023)** will be important for planning (e.g., smoothing out mid-year churn, replicating successful strategies from year-end). The SQL output can be found [here](assets/Output/7.pdf).
+**Revenue Change Summary (Y-o-Y):**
+•	Highly Volatile Mid-Year:
+o	Revenue trends experienced substantial swings between June and August.
+o	Basic product saw sharp declines in July and August (-70.4% and -55.5%).
+o	Pro and Premium products spiked dramatically during the same period.
+•	Strong Finish to the Year:
+o	Basic rebounded in November (+77.3%) and December (+146.2%).
+o	Premium regained momentum with +72.6% in December.
+•	Surging Peaks in Late Q3:
+o	Pro revenue surged in July (+183.3%) and September (+205.2%).
+•	Extreme Fluctuations in Premium Product:
+o	Premium spiked in April (+187.0%) then dropped steeply in October (-91.1%).
+
+The SQL output can be found [here](assets/Output/7.pdf).
+
+- Quarterly Revenue Trend:
+
+| Quarter  | Key Highlights: 2022 | Key Highlights: 2022 |
+| ------------- | ------------- | ----------------------- |
+| Q1 | Moderate gains after initial growth  | Strong start, then slight declines  |
+| Q2  | Large dip followed by a strong rebound  | Heavy loss in May, major rebound in June  |
+| Q3  | Inconsistent with declining trend  | Mixed results., stronger August  |
+| Q4  | Huge spike in October, major dip in November  | Gradual rise toward a record December  |
+
+**Summary:** 2022 was a rollercoaster year with extreme highs/lows, while 2023 showed more resilience—especially in Q1 and Q4. Q4 is strategically important in both years.
 
 ## Customer Engagement and Support
 **Focus:** Understand user engagement with CloudFlow’s features and their usage of support resources, to gauge overall activity levels and potential friction points requiring support.
@@ -97,9 +120,4 @@ The analysis is organized into four thematic areas, each corresponding to a set 
 
 - **Retention Segmentation:** Combining the insights above, we can segment the customer base to prioritize retention efforts. For instance, clients who indicate price concerns and have low product adoption (e.g., only one module, or low engagement as seen in support/engagement metrics) are at higher risk of churn and prime candidates for outreach. Meanwhile, satisfied single-product customers represent expansion opportunities. This analysis helps **inform cross-functional teams on where to focus – e.g., Customer Success can focus on value realization for price-sensitive accounts, and Sales can focus on upsell pitches to single-product accounts.** The SQL output can be found [here](assets/Output/4b.pdf).
 
-| Quarter  | Key Highlights: 2022 | Key Highlights: 2022 |
-| ------------- | ------------- | ----------------------- |
-| Q1 | Moderate gains after initial growth  | Strong start, then slight declines  |
-| Q2  | Large dip followed by a strong rebound  | Heavy loss in May, major rebound in June  |
-| Q3  | Inconsistent with declining trend  | Mixed results., stronger August  |
-| Q4  | Huge spike in October, major dip in November  | Gradual rise toward a record December  |
+
