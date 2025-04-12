@@ -99,5 +99,7 @@ The analysis is organized into four thematic areas, each corresponding to a set 
 
 | Quarter  | Key Highlights: 2022 | Key Highlights: 2022 |
 | ------------- | ------------- | ----------------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Q1 | Moderate gains after initial growth  | Strong start, then slight declines  |
+| Q2  | Large dip followed by a strong rebound  | Heavy loss in May, major rebound in June  |
+| Q3  | Inconsistent with declining trend  | Mixed results., stronger August  |
+| Q4  | Huge spike in October, major dip in November  | Gradual rise toward a record December  |
