@@ -87,24 +87,25 @@ The SQL output can be found [here](assets/Output/7.pdf).
    - Some users escalate directly to tickets without viewing help content
    - Only ~25% interact with help/FAQ content before filing tickets
 
-## Conversion Funnel Analysis
-**Focus:** Analyze the subscription signup and payment funnel to find where potential customers drop off during the upgrade/purchase process, and identify technical or UX issues hindering conversions.
+## Funnel Conversion Analysis
+**Focus:** Identify drop-off points and friction in the upgrade/payment process
 
-**Key Questions:**
+**Guiding Questions**
 
-- At which stage of the payment or onboarding funnel do we lose the most prospects?
-
-- What errors or issues are occurring during the payment process that prevent completion?
+- *At which stage of the payment or onboarding funnel do we lose the most prospects?*
 
 - How efficient is the funnel in terms of time – are users spending too long at certain steps or abandoning quickly?
 
-**Metrics & Findings:**
+**Key Insights:**
 
-- **Funnel Drop-Off Points:** The funnel data reveals **substantial drop-off at the very start and final stages of the payment process.** Out of all users who showed intent to subscribe, a large number **never initiated the payment** at all (180 users did not start the payment process). Among those who did start (opened the payment widget), many failed to complete: 87 opened the payment page, but only 78 proceeded to enter payment details, and ultimately only 54 submitted their payment. The conversion from payment start to a successful transaction was only ~39% (34 successes out of 87 starts), indicating significant leakage. The biggest drop-offs occurred when users attempted to submit payment info – at least 34 instances of **user input errors** were recorded (e.g. validation errors) and 38 instances of **payment processing errors** from the payment vendor side disrupted transactions. These errors collectively outnumber successful payments (only 34 successes), which is alarming for revenue conversion. The SQL output can be found [here](assets/Output/3.pdf).
+- Of those who open the payment widget, only ~39% complete the transaction The SQL output can be found [here](assets/Output/3.pdf).
 
-- **Error Impact:** An aggregated view of final outcomes shows **error states far exceed completions.** There were 180 total error events counted vs. 72 successful payment completions in the funnel analysis. This means users are more likely to encounter an error than a smooth checkout, which drastically hurts conversion rates. The errors include both user-side issues (possibly form errors or declines) and system issues (payment processing failures), underscoring a need for improvements on both fronts. The SQL output can be found [here](assets/Output/8a.pdf).
+- Errors (form inputs or vendor processing) outnumber successful completions (180 errors vs. 72 successes). The SQL output can be found [here](assets/Output/8a.pdf).
 
-- **Time Spent in Funnel:** Timing data suggests that users who abandon at early stages do so quickly. Many users who quit at the **PaymentWidgetOpened** stage spent on average only ~14 seconds on the payment page before giving up【25†】. This short duration implies confusion or frustration – they might not have found what they expected or encountered a blocker almost immediately (e.g., an unintuitive form or a technical glitch). Conversely, if we examine those who ended in an “Error” state, some records show NULL times (likely indicating no meaningful progress before error)【25†】. Overall, the funnel analysis indicates **urgent opportunities to streamline the payment process** (simplify the checkout UI, guide users to avoid input errors, and fix backend issues to reduce processing failures). Even small improvements here could convert dozens of additional customers, given the high drop-off counts. The SQL output can be found [here](assets/Output/8b.pdf).
+- Time Spent in Payment Funnel (The SQL output can be found [here](assets/Output/8b.pdf)
+  - Early stages (0–1): avg. 8+ minutes, suggesting high abandonment rates
+  - Cumulative time for completion: avg. 25–29 mins with 12 min minimum, suggesting lengthy checkout process
+
 
 ## Retention and Expansion Opportunities
 **Focus:** Investigate why customers churn (non-renew or downgrade) and identify opportunities to increase revenue from existing customers via upsells or cross-sells.
