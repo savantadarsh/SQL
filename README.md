@@ -98,6 +98,6 @@ The analysis is organized into four thematic areas, each corresponding to a set 
 - **Retention Segmentation:** Combining the insights above, we can segment the customer base to prioritize retention efforts. For instance, clients who indicate price concerns and have low product adoption (e.g., only one module, or low engagement as seen in support/engagement metrics) are at higher risk of churn and prime candidates for outreach. Meanwhile, satisfied single-product customers represent expansion opportunities. This analysis helps **inform cross-functional teams on where to focus – e.g., Customer Success can focus on value realization for price-sensitive accounts, and Sales can focus on upsell pitches to single-product accounts.** The SQL output can be found [here](assets/Output/4b.pdf).
 
 | Quarter  | Key Highlights: 2022 | Key Highlights: 2022 |
-| ------------- | ------------- |
+| ------------- | ------------- | ----------------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
