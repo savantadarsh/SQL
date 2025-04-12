@@ -30,9 +30,9 @@ The dataset consists of nine tables, covering information about users, customers
 
 **Guiding Questions**
 
-- *How does revenue break down by subscription tier (Basic, Pro, Premium), and which tier drives the most revenue?*
+*How does revenue break down by subscription tier (Basic, Pro, Premium), and which tier drives the most revenue?*
 
-- *What are the trends in monthly revenue over 2022–2023?*
+*What are the trends in monthly revenue over 2022–2023?*
 
 **Key Insights**
 
@@ -72,9 +72,9 @@ The SQL output can be found [here](assets/Output/7.pdf).
 
 **Guiding Questions**
 
-- *How actively are users engaging with CloudFlow (e.g. clicking links or using features)? Is the engagement distributed evenly or are there many low-activity users?*
+*How actively are users engaging with CloudFlow (e.g. clicking links or using features)? Is the engagement distributed evenly or are there many low-activity users?*
 
-- *To what extent do users rely on self-service support (help center, FAQs) versus contacting support or filing tickets? Are support resources effectively helping users, or do many issues escalate to support tickets?*
+*To what extent do users rely on self-service support (help center, FAQs) versus contacting support or filing tickets? Are support resources effectively helping users, or do many issues escalate to support tickets?*
 
 **Key Insights:**
 
@@ -92,9 +92,9 @@ The SQL output can be found [here](assets/Output/7.pdf).
 
 **Guiding Questions**
 
-- *At which stage of the payment or onboarding funnel do we lose the most prospects?*
+*At which stage of the payment or onboarding funnel do we lose the most prospects?*
 
-- *How efficient is the funnel in terms of time – are users spending too long at certain steps or abandoning quickly?*
+*How efficient is the funnel in terms of time – are users spending too long at certain steps or abandoning quickly?*
 
 **Key Insights:**
 
@@ -112,9 +112,9 @@ The SQL output can be found [here](assets/Output/7.pdf).
 
 **Guiding Questions**
 
-- *What are the primary reasons customers are cancelling or not renewing? Is pricing a major concern?*
+*What are the primary reasons customers are cancelling or not renewing? Is pricing a major concern?*
 
-- *How many customers have potential for upselling (e.g., have only one product or a lower tier plan) and thus represent low-hanging fruit for revenue expansion?*
+*How many customers have potential for upselling (e.g., have only one product or a lower tier plan) and thus represent low-hanging fruit for revenue expansion?*
 
 **Key Insights:**
 
