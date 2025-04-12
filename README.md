@@ -53,6 +53,19 @@ o	Pro revenue surged in July (+183.3%) and September (+205.2%).
 •	Extreme Fluctuations in Premium Product:
 o	Premium spiked in April (+187.0%) then dropped steeply in October (-91.1%).
 
+• Highly Volatile Mid-Year:
+   - Revenue trends experienced substantial swings between June and August
+   - Basic product saw sharp declines in July and August (-70.4% and -55.5%)
+   - Pro and Premium products spiked dramatically during the same period
+2. Strong Finish to the Year:
+   - Basic rebounded in November (+77.3%) and December (+146.2%)
+   - Premium regained momentum with +72.6% in December
+3. Surging Peaks in Late Q3:
+   - Pro revenue surged in July (+183.3%) and September (+205.2%)
+4. Extreme Fluctuations in Premium Product:
+   Premium spiked in April (+187.0%) then dropped steeply in October (-91.1%)
+
+
 The SQL output can be found [here](assets/Output/7.pdf).
 
 - Quarterly Revenue Trend:
