@@ -41,19 +41,7 @@ The dataset consists of nine tables, covering information about users, customers
 - **Basic** has the highest revenue fluctuation (£74.5k std. dev), suggesting sensitivity to churn or seasonal campaigns. The SQL output can be found [here](assets/Output/1b.pdf).
 
 **Revenue Change Summary (Y-o-Y):**
-•	Highly Volatile Mid-Year:
-o	Revenue trends experienced substantial swings between June and August.
-o	Basic product saw sharp declines in July and August (-70.4% and -55.5%).
-o	Pro and Premium products spiked dramatically during the same period.
-•	Strong Finish to the Year:
-o	Basic rebounded in November (+77.3%) and December (+146.2%).
-o	Premium regained momentum with +72.6% in December.
-•	Surging Peaks in Late Q3:
-o	Pro revenue surged in July (+183.3%) and September (+205.2%).
-•	Extreme Fluctuations in Premium Product:
-o	Premium spiked in April (+187.0%) then dropped steeply in October (-91.1%).
-
-• Highly Volatile Mid-Year:
+1. Highly Volatile Mid-Year:
    - Revenue trends experienced substantial swings between June and August
    - Basic product saw sharp declines in July and August (-70.4% and -55.5%)
    - Pro and Premium products spiked dramatically during the same period
@@ -68,7 +56,7 @@ o	Premium spiked in April (+187.0%) then dropped steeply in October (-91.1%).
 
 The SQL output can be found [here](assets/Output/7.pdf).
 
-- Quarterly Revenue Trend:
+**Quarterly Revenue Trend**
 
 | Quarter  | Key Highlights: 2022 | Key Highlights: 2022 |
 | ------------- | ------------- | ----------------------- |
