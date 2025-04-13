@@ -16,10 +16,8 @@ This analysis focuses on answering three core business questions:
 
 To address these, we examined product usage, revenue data, engagement patterns, support interactions, and conversion funnel behaviour.
 
-The dataset can be found [here](assets/dataset) and the analysis is carried out using mySQL Workbench 8.0. The SQL script can be found [here](assets/Cloudflow_Script.sql)
-
 ## Dataset Structure
-The dataset consists of nine tables, covering information about users, customers, subscriptions, products, and frontend activity, as well as payment status changes and cancellations.
+The dataset consists of nine tables, covering information about users, customers, subscriptions, products, and frontend activity, as well as payment status changes and cancellations. The dataset can be found [here](assets/dataset). The analysis is carried out using mySQL Workbench 8.0 and the script can be found [here].(assets/Cloudflow_Script.sql)
 
 ![Star Schema](assets/Data_Structure/Star_Schema.png)
 
