@@ -230,15 +230,15 @@ select
     round(cast(count(case 
         when cancelationreason regexp 'needed' 
         then SUBSCRIPTIONID end) as float)
-    / count(distinct SUBSCRIPTIONID),2) AS percent_expensive,
+    / count(distinct SUBSCRIPTIONID),2) AS percent_no_longer_needed,
     round(cast(count(case 
         when cancelationreason regexp 'features' 
         then SUBSCRIPTIONID end) as float)
-    / count(distinct SUBSCRIPTIONID),2) AS percent_expensive,
+    / count(distinct SUBSCRIPTIONID),2) AS percent_features,
     round(cast(count(case 
         when cancelationreason regexp 'alternative' 
         then SUBSCRIPTIONID end) as float)
-    / count(distinct SUBSCRIPTIONID),2) AS percent_expensive
+    / count(distinct SUBSCRIPTIONID),2) AS percent_alternative
 from all_cancelation_reasons;
 
 -- Business Problem 7
