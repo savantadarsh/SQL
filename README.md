@@ -36,7 +36,7 @@ The dataset consists of nine tables, covering information about users, customers
 
 - **Premium** plan has the highest average revenue per month (£275.15k), followed by **Basic** (£246.94k) and **Pro** (£207.10k). The SQL output can be found [here](assets/Output/1a.pdf).
 
-- **Basic** has the highest revenue fluctuation (£74.5k std. dev), suggesting sensitivity to churn or seasonal campaigns. The SQL output can be found [here](assets/Output/1b.pdf).
+- **Basic** has the highest revenue fluctuation (£74.5k std. dev), suggesting sensitivity to churn or seasonal campaigns. The SQL output can be found [here](assets/Output/1a.pdf).
 
 **Revenue Change Summary (Y-o-Y):**
 1. Highly Volatile Mid-Year
