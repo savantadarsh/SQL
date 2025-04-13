@@ -34,9 +34,9 @@ The dataset consists of nine tables, covering information about users, customers
 
 **Key Insights**
 
-- **Premium** plan has the highest average revenue per month (£275.15k), followed by **Basic** (£246.94k) and **Pro** (£207.10k). ([SQL Output](assets/Output/1a.pdf))
+- **Premium** plan has the highest average revenue per month (£275.15k), followed by **Basic** (£246.94k) and **Pro** (£207.10k). ([SQL Analysis](assets/Output/1a.pdf))
 
-- **Basic** has the highest revenue fluctuation (£74.5k std. dev), suggesting sensitivity to churn or seasonal campaigns. ([SQL Output](assets/Output/1a.pdf))
+- **Basic** has the highest revenue fluctuation (£74.5k std. dev), suggesting sensitivity to churn or seasonal campaigns. ([SQL Analysis](assets/Output/1a.pdf))
 
 **Revenue Change Summary (Y-o-Y):** 
 1. Highly Volatile Mid-Year
@@ -80,9 +80,9 @@ The table for the Power BI dashboard below can be found [here](assets/Output/1b.
 
 **Key Insights:**
 
-- **Majority of users** are moderately active: 33.9% clicked 2–3 links; 18.6% clicked 4 links. Only **3.4% of users** are high-frequency clickers (9–10 links), signalling a drop-off in "power users." ([SQL Output](assets/Output/2.pdf))
+- **Majority of users** are moderately active: 33.9% clicked 2–3 links; 18.6% clicked 4 links. Only **3.4% of users** are high-frequency clickers (9–10 links), signalling a drop-off in "power users." ([SQL Analysis](assets/Output/2.pdf))
 
-- Support behaviour ([<u>SQL output</u>](assets/Output/5.pdf))
+- Support behaviour ([<u>SQL Analysis</u>](assets/Output/5.pdf))
    - Some users escalate directly to tickets without viewing help content
    - Only ~25% interact with help/FAQ content before filing tickets
 
@@ -97,13 +97,13 @@ The table for the Power BI dashboard below can be found [here](assets/Output/1b.
 
 **Key Insights:**
 
-- Of those who open the payment widget, only ~39% complete the transaction. ([SQL Output](assets/Output/3.pdf))
+- Of those who open the payment widget, only ~39% complete the transaction. ([SQL Analysis](assets/Output/3.pdf))
 
-- Errors (form inputs or vendor processing) outnumber successful completions (180 errors vs. 72 successes). ([SQL Output](assets/Output/8a.pdf))
+- Errors (form inputs or vendor processing) outnumber successful completions (180 errors vs. 72 successes). ([SQL Analysis](assets/Output/8a.pdf))
 
-- Time Spent in Payment Funnel ([SQL Output](assets/Output/8b.pdf))
-  - Early stages (0–1):Avg. 8+ minutes, suggesting high abandonment rates ([Excel Output](assets/Excel_Output/Avg_time_spent.png))
-  - Cumulative time for completion: Avg. 25–29 mins with 12 min minimum, suggesting lengthy checkout process ([Excel Output](assets/Excel_Output/Diff_in_Mins.png))
+- Time Spent in Payment Funnel ([SQL Analysis](assets/Output/8b.pdf))
+  - Early stages (0–1):Avg. 8+ minutes, suggesting high abandonment rates ([Excel Insights](assets/Excel_Output/Avg_time_spent.png))
+  - Cumulative time for completion: Avg. 25–29 mins with 12 min minimum, suggesting lengthy checkout process ([Excel Insights](assets/Excel_Output/Diff_in_Mins.png))
 
 
 ## Retention and Expansion Opportunities
@@ -117,9 +117,9 @@ The table for the Power BI dashboard below can be found [here](assets/Output/1b.
 
 **Key Insights:**
 
-- ~35% of churned users cite price sensitivity as their main reason for leaving. ([SQL Output](assets/Output/6.pdf))
+- ~35% of churned users cite price sensitivity as their main reason for leaving. ([SQL Analysis](assets/Output/6.pdf))
 
-- 122 accounts flagged for upsell opportunities — many are large clients using only one product/module. The SQL output can be found [here](assets/Output/4a.pdf) and [here](assets/Output/4b.pdf).
+- 122 accounts flagged for upsell opportunities — many are large clients using only one product/module. The SQL Analysis can be found [here](assets/Output/4a.pdf) and [here](assets/Output/4b.pdf).
 
 ## 📈Core Analysis Themes & Insights
 1. ⬆️ **Upsell High-Potential Accounts**
