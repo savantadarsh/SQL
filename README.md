@@ -54,7 +54,7 @@ The dataset consists of nine tables, covering information about users, customers
 4. Extreme Fluctuations in Premium Product
    Premium spiked in April (+187.0%) then dropped steeply in October (-91.1%)
 
-The table for the Power BI dashboard can be found [here](assets/Output/1b.pdf).
+The table for the Power BI dashboard below can be found [here](assets/Output/1b.pdf).
 
 ![Revenue Change](assets/Power_BI_PDFs/Percentage_Change_in_Revenue.png)
 
@@ -67,7 +67,7 @@ The table for the Power BI dashboard can be found [here](assets/Output/1b.pdf).
 | Q3  | Inconsistent with declining trend  | Mixed results., stronger August  |
 | Q4  | Huge spike in October, major dip in November  | Gradual rise toward a record December  |
 
-**Summary:** 2022 was a rollercoaster year with extreme highs/lows, while 2023 showed more resilience—especially in Q1 and Q4. Q4 is strategically important in both years.
+**Summary:** 2022 [<u>Revenue Chart</u>](assets/Power_BI_PDFs/2022 Revenue.png) was a rollercoaster year with extreme highs/lows, while 2023 [<u>Revenue Chart</u>](assets/Power_BI_PDFs/2022 Revenue.png) showed more resilience—especially in Q1 and Q4. Q4 is strategically important in both years.
 
 ## Customer Engagement and Support
 **Focus:** Measure user activity and support reliance to identify engagement gaps
