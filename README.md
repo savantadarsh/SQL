@@ -80,7 +80,7 @@ The table for the Power BI dashboard below can be found [here](assets/Output/1b.
 
 **Key Insights:**
 
-- **Majority of users** are moderately active: 33.9% clicked 2–3 links; 18.6% clicked 4 links. Only **3.4% of users** are high-frequency clickers (9–10 links), signalling a drop-off in "power users." The SQL output can be found [here](assets/Output/2.pdf). 
+- **Majority of users** are moderately active: 33.9% clicked 2–3 links; 18.6% clicked 4 links. Only **3.4% of users** are high-frequency clickers (9–10 links), signalling a drop-off in "power users." ([SQL Output](assets/Output/2.pdf))
 
 - Support behaviour ([<u>SQL output</u>](assets/Output/5.pdf))
    - Some users escalate directly to tickets without viewing help content
@@ -97,11 +97,11 @@ The table for the Power BI dashboard below can be found [here](assets/Output/1b.
 
 **Key Insights:**
 
-- Of those who open the payment widget, only ~39% complete the transaction The SQL output can be found [here](assets/Output/3.pdf).
+- Of those who open the payment widget, only ~39% complete the transaction. ([SQL Output](assets/Output/3.pdf))
 
-- Errors (form inputs or vendor processing) outnumber successful completions (180 errors vs. 72 successes). The SQL output can be found [here](assets/Output/8a.pdf).
+- Errors (form inputs or vendor processing) outnumber successful completions (180 errors vs. 72 successes). ([SQL Output](assets/Output/8a.pdf))
 
-- Time Spent in Payment Funnel (The SQL output can be found [here](assets/Output/8b.pdf))
+- Time Spent in Payment Funnel ([SQL Output](assets/Output/8b.pdf))
   - Early stages (0–1):Avg. 8+ minutes, suggesting high abandonment rates ([Excel Output](assets/Excel_Output/Avg_time_spent.png))
   - Cumulative time for completion: Avg. 25–29 mins with 12 min minimum, suggesting lengthy checkout process ([Excel Output](assets/Excel_Output/Diff_in_Mins.png))
 
@@ -117,7 +117,7 @@ The table for the Power BI dashboard below can be found [here](assets/Output/1b.
 
 **Key Insights:**
 
-- ~35% of churned users cite price sensitivity as their main reason for leaving. The SQL output can be found [here](assets/Output/6.pdf).
+- ~35% of churned users cite price sensitivity as their main reason for leaving. ([SQL Output](assets/Output/6.pdf))
 
 - 122 accounts flagged for upsell opportunities — many are large clients using only one product/module. The SQL output can be found [here](assets/Output/4a.pdf) and [here](assets/Output/4b.pdf).
 
