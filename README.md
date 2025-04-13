@@ -82,7 +82,7 @@ The table for the Power BI dashboard below can be found [here](assets/Output/1b.
 
 - **Majority of users** are moderately active: 33.9% clicked 2–3 links; 18.6% clicked 4 links. Only **3.4% of users** are high-frequency clickers (9–10 links), signalling a drop-off in "power users." The SQL output can be found [here](assets/Output/2.pdf). 
 
-- Support behaviour [<u>SQL output</u>](assets/Output/5.pdf)
+- Support behaviour ([<u>SQL output</u>](assets/Output/5.pdf))
    - Some users escalate directly to tickets without viewing help content
    - Only ~25% interact with help/FAQ content before filing tickets
 
