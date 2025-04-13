@@ -121,7 +121,7 @@ The table for the Power BI dashboard below can be found [here](assets/Output/1b.
 
 - 122 accounts flagged for upsell opportunities — many are large clients using only one product/module. The SQL Analysis can be found [here](assets/Output/4a.pdf) and [here](assets/Output/4b.pdf).
 
-## 📈Core Analysis Themes & Insights
+## 📈Recommendations
 1. ⬆️ **Upsell High-Potential Accounts**
 Launch targeted campaigns for 122 identified accounts (esp. large single-module clients) to boost account value and product adoption.
 
@@ -129,6 +129,6 @@ Launch targeted campaigns for 122 identified accounts (esp. large single-module 
 Streamline the checkout funnel by simplifying UI and resolving common errors; only ~39% of users complete after initiating checkout.
 
 3. 💸 **Flexible Pricing & Value Communication**
-Introduce pricing tiers or dynamic offers and reinforce product value to reduce price-related churn (~35%).
+Introduce pricing tiers or dynamic offers and reinforce product value to reduce price-related churn (~39%).
 
 
