@@ -286,7 +286,7 @@ order by
 	avg(timeinstatus_minutes) desc)
 
 select 
-	subscriptionid, avg_time_spt, min_time_spt, max_time_spt, max_time_spt, sd.description as Last_payment_stage
+	subscriptionid, avg_time_spt, min_time_spt, max_time_spt, max_statusid, sd.description as Last_payment_stage
 from
 	status_summary as ss join statusdefinition as sd
     on ss.max_statusid = sd.statusid
