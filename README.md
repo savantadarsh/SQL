@@ -101,9 +101,9 @@ The table for the Power BI dashboard below can be found [here](assets/Output/1b.
 
 - Errors (form inputs or vendor processing) outnumber successful completions (180 errors vs. 72 successes). The SQL output can be found [here](assets/Output/8a.pdf).
 
-- Time Spent in Payment Funnel (The SQL output can be found [here](assets/Output/8b.pdf)
-  - Early stages (0–1): avg. 8+ minutes, suggesting high abandonment rates
-  - Cumulative time for completion: avg. 25–29 mins with 12 min minimum, suggesting lengthy checkout process
+- Time Spent in Payment Funnel (The SQL output can be found [here](assets/Output/8b.pdf))
+  - Early stages (0–1):Avg. 8+ minutes, suggesting high abandonment rates ([Excel Output](assets/Excel_Output/Avg_time_spent.png))
+  - Cumulative time for completion: Avg. 25–29 mins with 12 min minimum, suggesting lengthy checkout process ([Excel Output](assets/Excel_Output/Diff_in_Mins.png))
 
 
 ## Retention and Expansion Opportunities
