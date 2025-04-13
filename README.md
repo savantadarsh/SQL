@@ -64,7 +64,7 @@ The table for the Power BI dashboard below can be found [here](assets/Output/1b.
 | ------------- | ------------- | ----------------------- |
 | Q1 | Moderate gains after initial growth  | Strong start, then slight declines  |
 | Q2  | Large dip followed by a strong rebound  | Heavy loss in May, major rebound in June  |
-| Q3  | Inconsistent with declining trend  | Mixed results., stronger August  |
+| Q3  | Inconsistent with declining trend  | Mixed results, stronger August  |
 | Q4  | Huge spike in October, major dip in November  | Gradual rise toward a record December  |
 
 **Summary:** 2022 ([<u>Revenue Chart</u>](assets/Power_BI_PDFs/2022_Revenue.png)) was a rollercoaster year with extreme highs/lows, while 2023 ([<u>Revenue Chart</u>](assets/Power_BI_PDFs/2023_Revenue.png)) showed more resilience—especially in Q1 and Q4. Q4 is strategically important in both years.
@@ -80,12 +80,9 @@ The table for the Power BI dashboard below can be found [here](assets/Output/1b.
 
 **Key Insights:**
 
-- **Majority of users** are moderately active: 33.9% clicked 2–3 links; 18.6% clicked 4 links. The SQL output can be found [here](assets/Output/2.pdf). 
+- **Majority of users** are moderately active: 33.9% clicked 2–3 links; 18.6% clicked 4 links. Only **3.4% of users** are high-frequency clickers (9–10 links), signalling a drop-off in "power users." The SQL output can be found [here](assets/Output/2.pdf). 
 
-
-- Only 3.4% of users are high-frequency clickers (9–10 links), signalling a drop-off in "power users." The SQL output can be found [here](assets/Output/5.pdf).
-
-- Support behaviour:
+- Support behaviour [<u>SQL output</u>](assets/Output/5.pdf)
    - Some users escalate directly to tickets without viewing help content
    - Only ~25% interact with help/FAQ content before filing tickets
 
