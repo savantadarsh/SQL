@@ -54,8 +54,9 @@ The dataset consists of nine tables, covering information about users, customers
 4. Extreme Fluctuations in Premium Product
    Premium spiked in April (+187.0%) then dropped steeply in October (-91.1%)
 
+The table for the Power BI dashboard can be found [here](assets/Output/1b.pdf).
+
 ![Revenue Change](assets/Power_BI_PDFs/Percentage_Change_in_Revenue.png)
-The table for the Power BI can be found [here](assets/Output/1b.pdf).
 
 **Quarterly Revenue Trend**
 
