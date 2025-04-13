@@ -38,7 +38,7 @@ The dataset consists of nine tables, covering information about users, customers
 
 - **Basic** has the highest revenue fluctuation (£74.5k std. dev), suggesting sensitivity to churn or seasonal campaigns. The SQL output can be found [here](assets/Output/1a.pdf).
 
-**Revenue Change Summary (Y-o-Y):**
+**Revenue Change Summary (Y-o-Y):** 
 1. Highly Volatile Mid-Year
    - Revenue trends experienced substantial swings between June and August
    - Basic product saw sharp declines in July and August (-70.4% and -55.5%)
@@ -54,8 +54,8 @@ The dataset consists of nine tables, covering information about users, customers
 4. Extreme Fluctuations in Premium Product
    Premium spiked in April (+187.0%) then dropped steeply in October (-91.1%)
 
-
-The SQL output can be found [here](assets/Output/7.pdf).
+![Revenue Change](assets/Power_BI_PDFs/Percentage_Change_in_Revenue.pdf)
+The table for the Power BI can be found [here](assets/Output/1b.pdf).
 
 **Quarterly Revenue Trend**
 
